@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     private Animator animator;
 
@@ -13,7 +13,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        bool isRunning = (Input.GetKey(KeyCode.Space));
-        animator.SetBool("IsRunning", isRunning);
+        if(Input.GetMouseButtonDown(0))
+        {
+            animator.SetTrigger("Point");
+        }
     }
 }
