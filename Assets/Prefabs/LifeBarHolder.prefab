@@ -221,7 +221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: salad snek
+  m_text: solid snek
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2212450e3219a3b439fea3448e172866, type: 2}
   m_sharedMaterial: {fileID: -7887539473619829264, guid: 2212450e3219a3b439fea3448e172866,
