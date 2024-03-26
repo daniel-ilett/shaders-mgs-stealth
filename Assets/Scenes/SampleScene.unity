@@ -28397,6 +28397,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2003304140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3986190942363082776, guid: 406dbd7ad25ea8f488d0e4e1e15bf8b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2865708168129852275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2289453491234036533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28917,6 +28923,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cyberpunk Character
       objectReference: {fileID: 0}
+    - target: {fileID: 2215456594709541623, guid: b7442ca4b607f8342a0802c12e658f93,
+        type: 3}
+      propertyPath: stealthItemIcon
+      value: 
+      objectReference: {fileID: 2003304140}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
